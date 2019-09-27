@@ -1,0 +1,35 @@
+* {box-sizing:border-box;}
+body {background-color: #AEC0E4;}
+
+.intro {
+    color:black;
+    text-align: center;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.nytimes-container {
+    padding: 10px;
+    margin-right:30px;
+    background-color: #AEC0E4;
+
+}
+h3 {
+  color:white;
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+.article-list {
+    margin: 0;
+    padding: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.article {
+    list-style-type: none;
+    padding:10px;
+    border-top: 1px solid teal;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+.article:first-child {
+    border-top:none;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
